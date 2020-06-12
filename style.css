@@ -1,0 +1,33 @@
+/* mobile styles -------------------------------------------------------- */
+/* basic styles */
+img{
+    width: 100%;
+}
+
+/* layout styles */
+.header {
+
+} 
+.gallery {
+display: flex; 
+flex-wrap: wrap;
+}
+
+
+/* block styles */
+.container{ 
+width: 40%;
+margin: 10px;
+}
+
+/* desktop styles -------------------------------------------------------- */
+@media(min-width:550px){
+body{
+    display: flex;
+
+}
+.container{
+    width: 25%;
+    max-width: 140px;
+}
+}
